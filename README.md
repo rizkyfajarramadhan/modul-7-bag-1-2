@@ -1,5 +1,6 @@
 # modul-7-bag-1-2
 SOAL
+
 1. Berikan contoh kode keneksi untuk ke database pd php?
 
 2. Bagaimana cara anda membuat database pada phpMySQl!
@@ -14,12 +15,19 @@ JAWABAN
 1.[$connect = mysqli_connect($host,$uname,$pass,$db);]
 
 2.-Install aplikasi XAMPP
+
   -Buka XAMPP Control Panel
+  
   -Jalankan Apache dan MySQL
+  
   -Lalu buka browser(bisa di browser mana saja) dan ketik http://localhost/phpmyadmin
+  
   -Setelah ada tampilan menu database, masukkan nama database yang diinginkan lalu klik tombol Create di pojok kanan bawah
+  
   -Setelah itu akan muncul halaman untuk membuat tabel. Masukkan nama tabel dan jumlah kolom yang diinginkan, lalu klik tombol GO
+  
   -Setelah itu masuk ke halaman untuk membuat kolom database. Masukkan nama kolom kemudian tentukan type data dan panjang karakter dan tentukan primary key nya juga
+  
   -Jika sudah klik tombol Save, database yang kita buat akan tersimpan.
   
  3.[$query = "SELECT * FROM (nama_tabel)";]
